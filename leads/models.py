@@ -35,3 +35,5 @@ class Agent(models.Model):
     # first_name = models.CharField(max_length=20)
     # last_name = models.Model(max_length=20)  --- no need because it is in abstract user, and agent is the one login into the system
 
+    def __str__(self):
+        return self.user.email 
