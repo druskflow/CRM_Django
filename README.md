@@ -4,4 +4,4 @@ Django?
     free and open source,
     encourages rapid development,
     built by experienced developers,
-    focussed on security
+    focused on security
